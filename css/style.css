@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Bebas Neue', cursive;
+  line-height: 16px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 532px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px auto;
+}
+.btn {
+  background-color: #1E90FF;
+}
+.main-content {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  width: 1200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  background-image: url("../img/left-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.main-heading {
+  font-size: 24px;
+  color: #fff;
+  line-height: 29px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.hero-btn {
+  padding: 15px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color:#fff;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+}
+.hero-btn-img {
+  margin-right: 12px;
+}
+/* Recent vidios section */
+.recent-vidios {
+  margin-top: 54px;
+  margin-left: 54px;
+}
+.vidios-main-heading {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  color: #222;
+  margin-bottom: 24px;
+}
+.new-vidios-container {
+  border-top: 1px solid #999;
+  padding-top: 24px;
+}
+.new-vidios-card-horizontal {
+  display: flex;
+}
+.new-vidios-card-horizontal:not(:last-child) {
+  margin-bottom: 10px;
+}
+.vidio-img {
+  display: block;
+  width: 160px;
+  height: 90px;
+}
+.vidio-info {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.vidio-heading {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #222;
+  margin-bottom: 4px;
+}
+.data-and-time-wrapper {
+  display: flex;
+  align-items: center;
+}
+.vidio-date-and-watch-time-info {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+.date-and-watches-icon {
+  margin-right: 4px;
+}
+.data-and-time-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #888;
+}
+.btn-download {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 23px;
+}
